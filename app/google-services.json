@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961877019445",
+    "project_id": "organizze-13bae",
+    "storage_bucket": "organizze-13bae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961877019445:android:46a1e78b869b148d9f9a7c",
+        "android_client_info": {
+          "package_name": "com.example.organizzeclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgX2LUzRyaeKwMVEs-EWdvhRr0A2zQbpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
