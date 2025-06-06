@@ -1,54 +1,65 @@
-🛠️ Status do Projeto
-🔄 Em desenvolvimento ativo
-📅 Lançamento previsto: 15/05/2025
-🚧 Algumas funcionalidades ainda estão sendo implementadas
+# 💸 Organizze Clone – App de Controle Financeiro Pessoal
 
-✅ Funcionalidades planejadas
-🧾 Cadastro de despesas e receitas
+Bem-vindo ao **Organizze Clone**, um aplicativo Android completo para gerenciamento de finanças pessoais. Com ele, você pode controlar suas receitas e despesas, definir metas financeiras e visualizar seus dados de forma prática e intuitiva!
 
-📊 Gráficos intuitivos para visualização dos gastos
+---
 
-💡 Sugestões inteligentes para economizar
+## 📱 Telas do Aplicativo
 
-🔔 Lembretes de contas a pagar e receber
+| Tela de Login | Tela Principal |
+|---------------|----------------|
+| ![Login](https://github.com/user-attachments/assets/5e32ba48-637c-430c-9891-2f3feb8ddd07) | ![Principal](https://github.com/user-attachments/assets/7544bcce-ed42-496e-bc4d-51e95cd1ded1) |
 
-🔐 Proteção de dados com autenticação segura
+| Tela de Receita | Tela de Despesa |
+|------------------|------------------|
+| ![Receita](https://github.com/user-attachments/assets/05c90893-2b14-416b-9db4-2ba662399d69) | ![Despesa](https://github.com/user-attachments/assets/67f9c598-1fe9-444d-9a7d-6ce7031e6af4) |
 
-🎯 Metas financeiras personalizadas
+| Tela de Movimentações |
+|-----------------------|
+| ![Movimentações](https://github.com/user-attachments/assets/3fdfb9d6-ad81-444a-b739-dd0afffffd8c) |
 
-📱 Tecnologias Utilizadas
-🧩 Java/Kotlin (Android) ou Flutter/React Native (dependendo da stack que estiver usando)
+---
 
-💾 SQLite / Firebase / Room (para armazenamento local ou em nuvem)
+## ⚙️ Tecnologias Utilizadas
 
-🎨 Material Design / Jetpack Compose (interface)
+- 🧩 **Java** (Android)
+- 🔥 **Firebase Authentication & Realtime Database**
+- 📂 **MaterialIntro** (Introdução animada)
+- 🎨 **Material Design**
+- 🗃️ **Arquitetura MVC**
 
-🚀 Como executar
-Instruções básicas para rodar o projeto localmente
+---
 
-bash
-Copiar
-Editar
-# Clone este repositório
+## 🧠 Funcionalidades
+
+- ✅ Cadastro de receitas e despesas
+- ✅ Visualização dos saldos por mês
+- ✅ Interface limpa e intuitiva
+- ✅ Navegação com introdução (Material Intro)
+- ✅ Autenticação segura com Firebase
+- 📊 Gráficos (em desenvolvimento)
+- 🔔 Lembretes de contas (em planejamento)
+- 🌙 Modo escuro (em breve)
+- 🌍 Suporte a múltiplas moedas (em breve)
+
+---
+
+## 🛠️ Status do Projeto
+
+| Status | Progresso |
+|--------|-----------|
+| 🔄 Em desenvolvimento | ✅ 70% concluído |
+| 🚧 Próximas features | Gráficos, modo escuro, metas |
+
+---
+
+## 🚀 Como Executar o Projeto
+
+```bash
+# Clone o repositório
 git clone https://github.com/seu-usuario/organizze-cloe.git
 
 # Acesse a pasta do projeto
 cd organizze-cloe
 
-# Abra no Android Studio ou rode no emulador
-🧪 Próximos passos
- Implementar gráfico de gastos por categoria
-
- Tela de login com autenticação
-
- Modo escuro 🌙
-
- Suporte a múltiplas moedas 🌍
-
- Sincronização com nuvem ☁️
-
-🤝 Contribuição
-Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests. Toda ajuda é bem-vinda! 💡👩‍💻👨‍💻
-
-📩 Contato
-📧 magnohenriquereis@gmail.com
+# Abra com Android Studio e execute no emulador ou dispositivo físico
