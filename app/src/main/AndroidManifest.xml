@@ -13,13 +13,34 @@
         android:theme="@style/Theme.ORGANIZZECLONE"
         tools:targetApi="31">
         <activity
-            android:name="Activity.LoginActivity"
+            android:name="Activity1.DespesaActivity"
+            android:theme="@style/Theme.DespesasTheme"
+
             android:exported="false" />
         <activity
-            android:name="Activity.Tela_Cadastro"
+            android:name="Activity1.ReceitaActivity"
+            android:theme="@style/Theme.ReceitasTheme"
+
             android:exported="false" />
         <activity
-            android:name="Activity.MainActivity"
+            android:name="Activity1.TelaPrincipal"
+            android:exported="false"
+            android:theme="@style/Theme.ORGANIZZECLONE" />
+
+
+        <activity
+            android:name="Activity1.Termos"
+            android:exported="false" />
+        <activity
+            android:name="Activity1.Cadastro"
+            android:exported="false" />
+
+        <activity
+            android:name="Activity1.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="Activity1.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Intro">
             <intent-filter>
@@ -28,6 +49,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

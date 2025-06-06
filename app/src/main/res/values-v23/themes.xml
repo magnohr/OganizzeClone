@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="Base.Theme.ORGANIZZECLONE" parent="Theme.Material3.DayNight.NoActionBar" />
+
+  <style name="Theme.DespesasTheme" parent="Base.Theme.ORGANIZZECLONE">
+    <item name="colorPrimary">#D32F2F</item>
+    <item name="colorSecondary">#FF5252</item>
+    <item name="android:windowBackground">#FFF1F1</item>
+    <item name="android:statusBarColor">#B71C1C</item>
+    <item name="android:navigationBarColor">#D32F2F</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="Theme.ReceitasTheme" parent="Base.Theme.ORGANIZZECLONE">
+    <item name="colorPrimary">#388E3C</item>
+    <item name="colorSecondary">#69F0AE</item>
+    <item name="android:windowBackground">#F1FFF1</item>
+    <item name="android:statusBarColor">#1B5E20</item>
+    <item name="android:navigationBarColor">#388E3C</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+</resources>

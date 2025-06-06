@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"
-        android:text="Organize suas contas de \n onde estiver!"
+        android:text="Controle seus gastos, conquiste seus sonhos!"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp"

@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores padrão do app -->
+    <color name="primary">#6200EE</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="onSecondary">#000000</color>
+    <color name="background">#FFFFFF</color>
+    <color name="onBackground">#000000</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#000000</color>
+    <color name="error">#B00020</color>
+    <color name="onError">#FFFFFF</color>
+
+    <!-- Cores para o tema de despesas -->
+    <color name="despesa_primary">#D32F2F</color>
+    <color name="despesa_secondary">#FF5252</color>
+    <color name="despesa_background">#FFF1F1</color>
+    <color name="despesa_statusBar">#B71C1C</color>
+
+    <!-- Cores para o tema de receitas -->
+    <color name="receita_primary">#388E3C</color>
+    <color name="receita_secondary">#69F0AE</color>
+    <color name="receita_background">#F1FFF1</color>
+    <color name="receita_statusBar">#1B5E20</color>
+
 </resources>

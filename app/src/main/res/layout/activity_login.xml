@@ -2,9 +2,70 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/editiEmail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Activity.LoginActivity">
+    tools:context="Activity1.LoginActivity">
+
+    <Button
+        android:id="@+id/butaoEntrar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#01C7d2"
+        android:text="ENTRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editiSenha" />
+
+    <EditText
+        android:id="@+id/editEmailLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editiSenha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="ACESSE SUA CONTA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editEmailLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/editiSenha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="SENHA"
+        android:inputType="numberPassword"
+        app:layout_constraintBottom_toTopOf="@+id/butaoEntrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEmailLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

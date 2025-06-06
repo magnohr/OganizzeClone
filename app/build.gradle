@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.application)
-
     id 'com.google.gms.google-services'
 }
 
@@ -10,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.organizzeclone"
-        minSdk 35
+        minSdk 26
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -28,6 +27,16 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding true
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            force 'androidx.core:core:1.13.0'
+            exclude group: 'com.android.support', module: 'support-v4'
+        }
+    }
 }
 
 dependencies {
@@ -36,6 +45,8 @@ dependencies {
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
@@ -46,10 +57,11 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-database'
 
-
-
     implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
 
+    implementation ('com.github.clans:fab:1.6.4') {
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
 
-
+    implementation 'com.github.prolificinteractive:material-calendarview:1.4.0'
 }

@@ -48,9 +48,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#01C7d2"
         android:onClick="BtCadastrar"
         android:text="Cadastre-se"
         app:layout_constraintEnd_toEndOf="parent"
